@@ -1,0 +1,133 @@
+impoer url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+
+/* nav part */
+.head{
+    background-image: url(Header\ with\ image.png); 
+    background-size: cover ;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5vh;
+}
+
+.nav li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 4vh;
+}
+
+.nav h1{
+    padding-left: 2vh;
+}
+
+.nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20vh;
+    padding: 10vh;
+}
+/* button */
+#b1{
+    background-color: #0c0c0c;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+#b1:hover{
+   background-color: #666;
+} 
+#b1:active{
+    background-color: azure;
+}
+/* items */
+.items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    justify-content: center;
+    gap: 15px;
+    
+}
+.info{
+    padding: 5vh ;
+}
+.card{
+    overflow: hidden;
+}
+.card img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* product part */
+.sectionitems{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px,1fr));
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.card1{
+    overflow: hidden;
+    grid-row: span 2;
+}
+.card1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+  
+
+/* about_info */
+#h{
+    padding-left: 5vh;
+}
+.about_info{
+    padding: 2vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+.about_info div{
+    padding: 5vh;
+}
+/* footer */
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.footer li{
+    list-style-type: none;
+    padding: 1vh;
+}
+.footer a{
+    text-decoration: none;
+    color: #0c0c0c;
+}
+#footer_sitename{
+    margin: 4vh;
+}
